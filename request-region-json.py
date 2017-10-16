@@ -10,10 +10,6 @@ import sys
 reload(sys) 
 sys.setdefaultencoding('utf-8')
 
-# headers = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'}
-# res = requests.get('http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201703/t20170310_1471429.html',headers= headers)
-# print res.content
-
 provinces = []
 
 #解析html
